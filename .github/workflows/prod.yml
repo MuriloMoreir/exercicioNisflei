@@ -36,7 +36,7 @@ jobs:
       name: Docker
       with:
         image: murilomoreira971/exercicioNisflei
-        tags: PROD-${{github.run_number}}
+        tags: prod-${{github.run_number}}
         registry: docker.io
         dockerfile: Dockerfile
         username: ${{secrets.DOCKER_USERNAME}}
