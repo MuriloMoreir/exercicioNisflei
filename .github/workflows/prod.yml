@@ -35,8 +35,8 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Docker
       with:
-        image: murilomoreira971/exercicioNisflei
-        tags: pro-${{github.run_number}}
+        image: murilomoreira971/exercicionisflei
+        tags: prodd${{github.run_number}}
         registry: docker.io
         dockerfile: Dockerfile
         username: ${{secrets.DOCKER_USERNAME}}
