@@ -41,3 +41,6 @@ jobs:
         dockerfile: Dockerfile
         username: ${{secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}
+
+    - name: AMO MUITO A PROD
+      run: echo AMO MUITISSIMO O MURILEX DO BRONX GST
